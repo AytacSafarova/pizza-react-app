@@ -60,7 +60,6 @@ const Register = () => {
           >
             <Typography component="h1" variant="h5">
             < LocalPizzaIcon></LocalPizzaIcon>
-
                  Register          
              </Typography>
             <Box component="form" noValidate onSubmit={handleSubmit(onSubmitHandler)} sx={{ mt: 1 }} >
