@@ -15,29 +15,6 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <div>
-        {user ? "var" : "yoxdur"}
-        <button
-          onClick={() =>
-            register(
-              "deneme3@gmail.com",
-              "salam123",
-              "Suleyman Dadashov",
-              setUser
-            )
-          }
-        >
-          Register
-        </button>
-        <button onClick={() => login("deneme3@gmail.com", "salam123", setUser)}>
-          Login
-        </button>
-        <button onClick={() => logOut(setUser)}>Logout</button>
-        <button onClick={() => getCurrentUserWithCredentials(user, setUser)}>
-          Current User
-        </button>
-        Home
-      </div>
     </>
   );
 };
